@@ -2,6 +2,7 @@
 .profile {
   display: flex;
   gap: 3rem;
+  margin-bottom: 4.8rem;
 
   &__img {
     display: flex;
@@ -51,5 +52,31 @@
       line-height: 1.5;
       font-weight: 400;
     }
+  }
+}
+
+// *** POSTS
+.posts {
+  border-top: 1px solid $border-color;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 2.8rem;
+  padding-top: 2.8rem;
+}
+
+.post {
+  img {
+    width: 29rem;
+    height: 29rem;
+    object-fit: cover;
+    cursor: pointer;
+    filter: brightness(1);
+    transition: filter 0.2s ;
+  }
+
+  img:hover {
+    filter: brightness(0.8);
   }
 }

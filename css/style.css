@@ -19,7 +19,7 @@ body {
   width: 100%;
   max-width: 97.5rem;
   margin: 0 auto;
-  padding: 3rem 2rem 0 2em;
+  padding: 3rem 2rem 6.4rem 2em;
 }
 
 .nav {
@@ -66,9 +66,21 @@ body {
   cursor: pointer;
 }
 
+.footer {
+  color: #747474;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  border-top: 1px solid #dbdbdb;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .profile {
   display: flex;
   gap: 3rem;
+  margin-bottom: 4.8rem;
 }
 .profile__img {
   display: flex;
@@ -107,6 +119,27 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.posts {
+  border-top: 1px solid #dbdbdb;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 2.8rem;
+  padding-top: 2.8rem;
+}
+
+.post img {
+  width: 29rem;
+  height: 29rem;
+  object-fit: cover;
+  cursor: pointer;
+  filter: brightness(1);
+  transition: filter 0.2s;
+}
+.post img:hover {
+  filter: brightness(0.8);
 }
 
 /*# sourceMappingURL=style.css.map */
