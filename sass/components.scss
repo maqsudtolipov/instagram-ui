@@ -1,0 +1,49 @@
+// *** NAVIGATION
+
+.nav {
+  background-color: $white;
+  border-bottom: 1px solid $border-color;
+
+  display: flex;
+  align-items: center;
+
+  // remove later
+  height: 6rem;
+}
+
+.nav-container {
+  width: 97.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.nav-input {
+  font-size: 1.4rem;
+  background-color: $color-grey-light;
+  width: 26.8rem;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid $border-color;
+  border-radius: 0.3rem;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.nav-icons ion-icon {
+  font-size: 2.6rem;
+  cursor: pointer;
+}

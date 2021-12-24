@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 100%;
+  max-width: 97.5rem;
+  margin: 0 auto;
+  padding: 2rem 3rem 0;
+}
+
+.nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  height: 6rem;
+}
+
+.nav-container {
+  width: 97.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.nav-input {
+  font-size: 1.4rem;
+  background-color: #fafafa;
+  width: 26.8rem;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.3rem;
+}
+.nav-input:focus {
+  outline: none;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.nav-icons ion-icon {
+  font-size: 2.6rem;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
