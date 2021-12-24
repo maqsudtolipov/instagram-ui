@@ -1,5 +1,6 @@
 // *** VARIABLES
 $white: #ffffff;
+$text-color: #262626;
 $color-grey-light: #fafafa;
 $border-color: #dbdbdb;
 
@@ -15,7 +16,9 @@ html {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   line-height: 1;
+  color: #262626;
   background-color: $color-grey-light;
 }
 
@@ -24,5 +27,5 @@ body {
   width: 100%;
   max-width: 97.5rem;
   margin: 0 auto;
-  padding: 2rem 3rem 0;
+  padding: 3rem 2rem 0 2em;
 }
