@@ -59,3 +59,36 @@
   align-items: center;
   justify-content: center;
 }
+
+// *** POPUP
+.popup {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  display: none;
+  place-items: center;
+}
+
+.popup-box {
+  max-width: 150rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+
+  display: grid;
+  grid-template-columns: 1fr 40rem;
+}
+
+.popup-img {
+  width: 70rem;
+  height: 70rem;
+}
+
+.popup-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
